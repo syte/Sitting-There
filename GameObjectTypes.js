@@ -3,5 +3,6 @@ var GameObjectTypes = {
 	enemy: 'enemy',
 	scenery: 'scenery',
 	scene: 'scene',
+	projectile: 'projectile'
 	hud: 'hud'
 };
