@@ -25,7 +25,7 @@ var Scene = GameObject.extend({
 				this.x = canvas.width;
 			}
 			
-		   ctx.drawImage(this.texture,
+			ctx.drawImage(this.texture,
 				0, 0, canvas.width - this.x, this.texture.height,
 				this.x, 0, canvas.width - this.x, this.texture.height);
 								
