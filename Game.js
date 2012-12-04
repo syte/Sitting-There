@@ -16,11 +16,11 @@ var Game = Class.extend({
 	setup: function() {
 		var _this = this;
 		$(window).keydown(function() {
-				_this.keysPressed[event.keyCode] = true;
+			_this.keysPressed[event.keyCode] = true;
 		});
 		
 		$(window).keyup(function() {
-				_this.keysPressed[event.keyCode] = false;
+			_this.keysPressed[event.keyCode] = false;
 		});
 	}
 });
